@@ -1,0 +1,90 @@
+.notifications-container {
+  font-family: sans-serif;
+  /*   position: fixed;
+    margin-left: 180px;
+    margin-right: 500px; 
+    max-width: 25%;
+    margin-top: 10px;*/
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.notifications-container img {
+  pointer-events: none;
+}
+
+.notifications-container ul {
+  list-style-type: none;
+  user-select: none;
+  /* display: flex; */
+}
+
+.notifications-container ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.notifications-container ul li:first-child {
+  margin-left: auto;
+}
+
+.notifications-container ul li:last-child {
+  margin-right: auto;
+}
+
+.notifications-container ul li .notificationFrom_user_image {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background: rgba(138, 138, 138, 0.75);
+  padding: 1px;
+  position: relative;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.notifications-container ul li .has-story .notificationFrom_user_image {
+  padding: 2px;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.notifications-container ul li .notificationFrom_user_image img {
+  padding: 2px;
+  background: currentColor;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.notifications-container ul li .notificationFrom_user_name {
+  color: black;
+  /* font-weight: 300; */
+  font-size: 20px;
+  /* max-width: 85px; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.notifications-container ul li .notificationFrom_user_text {
+  color: black;
+  /* font-weight: 300; */
+  font-size: 20px;
+  /* max-width: 85px; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  margin-top: -5px;
+  margin-left: 50px;
+}

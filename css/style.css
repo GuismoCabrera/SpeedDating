@@ -1,0 +1,33 @@
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}
+#me {
+  position: relative;
+  height: 100%;
+  display: block;
+  background-color: transparent;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#me video {
+  position: relative !important;
+  border-radius: 5%;
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#remote-container {
+  display: flex;
+}
+
+#remote-container video {
+  position: relative !important;
+  border-radius: 5%;
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
